@@ -1,0 +1,35 @@
+<div class="project">
+  <div class="project-info-wrapper">
+    <div class="project-title">Project Name: </div>
+    <div class="project-name">IPA</div>
+  </div>
+  <div class="add-task">
+    <span class="add-task-title">Create Task</span>
+  </div>
+</div>
+<div class="project-estimate">
+  <div class="estimates">
+    <div class="status">
+      <div class="status-in-persent">31%</div>
+      <div class="status-line status-line-dev"></div>
+      <div class="status-title">Development</div>
+    </div>
+    <div class="status">
+      <div class="status-in-persent">60%</div>
+      <div class="status-line status-line-qa"></div>
+      <div class="status-title">QA</div>
+    </div>
+    <div class="status">
+      <div class="status-in-persent">67%</div>
+      <div class="status-line status-line-review"></div>
+      <div class="status-title">Client Review</div>
+    </div>
+    <div class="status">
+      <div class="status-in-persent">42%</div>
+      <div class="status-line status-line-live"></div>
+      <div class="status-title">Live</div>
+    </div>
+  </div>
+</div>
+<!--<app-task *ngFor="let task of tasks | filter: chosenTechniques" [task]="task"></app-task>-->
+<app-task *ngFor="let task of filteredTasks" [task]="task"></app-task>

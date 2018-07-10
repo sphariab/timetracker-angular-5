@@ -1,0 +1,15 @@
+<div class="techniques">
+    <div class="techniques-item" [ngClass]="{'active': chosenTechniques.includes(technique)}"
+         (click)="filterProjects(technique)" #filter
+         *ngFor="let technique of techniques">
+        {{technique.title}}
+    </div>
+    <button class="btn float-right btn-filter"
+            (click)="filterProjects('all')">All</button>
+</div>
+
+
+<app-project [chosenTechniques]="chosenTechniques"></app-project>
+
+
+

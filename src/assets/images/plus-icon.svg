@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>plus icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-27.3%" y="-27.3%" width="154.5%" height="154.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0676234149 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-992.000000, -114.000000)">
+            <g id="head" transform="translate(129.000000, 97.000000)">
+                <g id="create-task-" transform="translate(778.000000, 21.000000)">
+                    <g id="plus-icon" filter="url(#filter-1)" transform="translate(89.000000, 0.000000)">
+                        <circle id="Oval" fill="#FFFFFF" cx="11" cy="11" r="11"></circle>
+                        <g id="add" transform="translate(6.000000, 6.000000)" fill-rule="nonzero" fill="#648FC0">
+                            <path d="M9.45730492,4.30232992 L5.69765787,4.30232992 L5.69765787,0.542662538 C5.69765787,0.371394291 5.46509169,2.84552846e-05 4.99997967,2.84552846e-05 C4.53486765,2.84552846e-05 4.30230147,0.371414622 4.30230147,0.542662538 L4.30230147,4.30235025 L0.542634083,4.30235025 C0.371386167,4.30232992 0,4.5348961 0,4.99998779 C0,5.46507949 0.371386167,5.69766599 0.542634083,5.69766599 L4.3023218,5.69766599 L4.3023218,9.45735371 C4.3023218,9.6285813 4.53486765,9.99998779 5,9.99998779 C5.46513235,9.99998779 5.6976782,9.6285813 5.6976782,9.45735371 L5.6976782,5.69766599 L9.45736592,5.69766599 C9.6285935,5.69766599 10,5.46512015 10,4.99998779 C10,4.53485544 9.62855284,4.30232992 9.45730492,4.30232992 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

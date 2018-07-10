@@ -1,0 +1,45 @@
+@import '../../sass/variables'
+
+.techniques
+    margin-bottom: 30px
+    &-item
+        font-family: $RobotoRegular
+        font-size: 16px
+        color: $light-dark
+        padding: 8px 16px 7px 16px
+        display: inline-block
+        box-sizing: border-box
+        -moz-box-sizing: border-box
+        -webkit-box-sizing: border-box
+        border-radius: 6px
+        cursor: pointer
+        margin-right: 15px
+        &:hover
+            border: 1px solid #E5EAEE
+            padding: 7px 15px 6px 15px
+.techniques-item.active
+    border: 1px solid #E5EAEE
+    background-color: $white
+    color: $blue
+    padding: 7px 15px 6px 15px
+
+.btn-filter
+  width: 90px
+  height: 26px
+  font-size: 12px
+  color: #687787
+  font-family: $RobotoRegular
+  line-height: 26px
+  position: relative
+  &:after
+    content: ""
+    display: inline-block
+    background: url("../../assets/images/arrow-down.svg") no-repeat center
+    background-size: contain
+    position: absolute
+    width: 10px
+    height: 8px
+    right: 8px
+    top: 10px
+
+

@@ -1,0 +1,15 @@
+<div class="subtask-title">
+  <div class="task-name">
+    {{subtask.name}}
+  </div>
+  <div class="tag" *ngFor="let tag of subtask.tags">{{tag}}</div>
+  <div class="subtask-title-status">{{subtask.status}}</div>
+</div>
+<div class="estimates-title-wrapper">
+  <div class="estimate-title">Estimated:</div>
+  <div class="estimate-hours">{{subtask.estimated}}</div>
+</div>
+<div class="estimates-title-wrapper">
+  <div class="estimate-title">Spent:</div>
+  <div class="estimate-hours">{{subtask.spend}}</div>
+</div>

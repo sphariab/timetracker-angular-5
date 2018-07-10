@@ -1,0 +1,55 @@
+<div class="task">
+  <div class="task-title">
+      <div class="colored-tag" [ngClass]="task.color">{{task.name}}</div>
+      <div class="task-name">{{task.title}}</div>
+      <ul class="tag-wrapper">
+          <li class="tag" *ngFor="let tag of task.tags">{{tag}}</li>
+      </ul>
+  </div>
+  <div class="main-task-content" *ngIf="showTask">
+        <div class="task-main-wrapper">
+            <div class="participants">
+                <img [src]="participantUrl" alt="" *ngFor="let participantUrl of task.participants">
+
+            </div>
+        </div>
+        <div class="estimates">
+            <div class="estimates-title-wrapper">
+                <div class="estimate-title">Estimated:</div>
+                <div class="estimate-hours">{{task.estimated}}</div>
+            </div>
+            <div class="estimates-title-wrapper">
+                <div class="estimate-title">Spent:</div>
+                <div class="estimate-hours">{{task.spend}}</div>
+            </div>
+            <br>
+            <div class="status">
+                <div class="status-line status-line-dev"></div>
+                <div class="status-title">Development</div>
+            </div>
+            <div class="status">
+                <div class="status-line status-line-qa"></div>
+                <div class="status-title">QA</div>
+            </div>
+            <div class="status">
+                <div class="status-line status-line-review"></div>
+                <div class="status-title">Client Review</div>
+            </div>
+            <div class="status">
+                <div class="status-line status-line-live"></div>
+                <div class="status-title">Live</div>
+            </div>
+        </div>
+        <div class="subtasks-wrapper">
+            <app-subtask class="subtask" *ngFor="let subtask of task.subtasks" [subtask]="subtask" [ngClass]="{'subtask-not-active': subtask.status==='live' }">
+
+            </app-subtask>
+        </div>
+        <div class="delivery-text">
+            Delivery date:
+            <span class="delivery-text-black">{{task.date}}</span>
+        </div>
+        <div class="btn float-right">Detail</div>
+    </div>
+    <div class="arrow-down" (click)="showTask = !showTask"></div>
+</div>

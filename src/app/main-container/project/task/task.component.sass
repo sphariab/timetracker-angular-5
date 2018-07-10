@@ -1,0 +1,96 @@
+@import '../../../../sass/variables'
+
+.task
+  padding: 24px 27px 28px 33px
+  background-color: $white
+  border-radius: 6px
+  box-shadow: 0 0 12px 0 #f3f3f3
+  position: relative
+  margin-bottom: 27px
+  .arrow-down
+    position: absolute
+    background: url("../../../../assets/images/arrow-down.svg") no-repeat center
+    width: 14px
+    background-size: 100%
+    height: 7px
+    right: 30px
+    top: 30px
+  .btn
+    margin-top: 21px
+
+  &-name
+    font-family: $RobotoRegular
+    font-size: 18px
+    color: $dark-title
+    display: inline-block
+    margin: 0 25px 0 20px
+  &-main-wrapper
+    padding-bottom: 15px
+    border-bottom: 1px solid #dfdfdf
+    padding-top: 21px
+  .participants
+    img
+      margin-right: 15px
+
+.tag-wrapper
+  display: inline-block
+  .tag
+    display: inline-block
+    margin-right: 5px
+.subtasks
+    &-wrapper
+        padding: 27px 0 30px 0
+        border-bottom: 1px solid #dfdfdf
+    .subtask-title-status
+      color: $status-text-green
+.subtask
+  height: 60px
+  position: relative
+  padding-left: 21px
+  padding-top: 7px
+  margin: 24px 0
+  display: block
+
+  &:before
+    background-color: $status-text-green
+    width: 7px
+    height: 60px
+    content: ""
+    display: inline-block
+    position: absolute
+    left: 0
+    top: 0
+
+  &:first-child
+    margin-top: 0
+  &:last-child
+    margin-bottom: 0
+  &-not-active
+    opacity: 0.3
+
+.subtask-not-active
+  &:before
+    background-color: $status-text-blue
+  .subtask-title-status
+    color: $status-text-blue
+
+
+.delivery-text
+  color: $blue-text
+  font-family: $RobotoRegular
+  font-size: 16px
+  display: inline-block
+  padding-top: 27px
+  &-black
+    color: $dark-title
+
+.task-name-color-red
+  background-color: $transparent-red
+.task-name-color-green
+  background-color: $transparent-green
+.task-name-color-blue
+  background-color: $transparent-blue
+
+
+
+

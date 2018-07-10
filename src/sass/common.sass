@@ -1,0 +1,183 @@
+@font-face
+  font-family: $RobotoBold
+  src: url('../../src/assets/fonts/Roboto-Bold.woff') format('woff')
+  src: url('../../src/assets/fonts/Roboto-Bold.woff2') format('woff2')
+
+@font-face
+  font-family: $RobotoRegular
+  src: url('../../src/assets/fonts/Roboto-Regular.woff') format('woff')
+  src: url('../../src/assets/fonts/Roboto-Regular.woff2') format('woff2')
+
+
+@font-face
+  font-family: $RobotoMedium
+  src: url('../../src/assets/fonts/Roboto-Medium.woff') format('woff')
+  src: url('../../src/assets/fonts/Roboto-Medium.woff2') format('woff2')
+
+@font-face
+  font-family: $RobotoLight
+  src: url('../../src/assets/fonts/Roboto-Light.woff') format('woff')
+  src: url('../../src/assets/fonts/Roboto-Light.woff2') format('woff2')
+
+@font-face
+  font-family: $OpenSansLight
+  src: url('../../src/assets/fonts/OpenSans-Light.woff') format('woff')
+  src: url('../../src/assets/fonts/OpenSans-Light.woff2') format('woff2')
+
+.tag
+  border: 1px solid $grey-border
+  background-color: $white
+  width: 70px
+  height: 21px
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  color: $light-blue
+  font-size: 12px
+  font-family: $OpenSansLight
+  font-weight: 300
+  border-radius: 6px
+  text-align: center
+  line-height: 21px
+
+.colored-tag
+  width: 60px
+  height: 21px
+  -webkit-box-sizing: border-box
+  -moz-box-sizing: border-box
+  box-sizing: border-box
+  color: $white
+  font-size: 12px
+  display: inline-block
+  border-radius: 6px
+  line-height: 21px
+  text-align: center
+  font-family: $RobotoRegular
+  &-blue
+    background-color: $transparent-blue
+
+.estimates
+  padding: 24px 0 25px 0
+  border-bottom: 1px solid #dfdfdf
+
+  &-title-wrapper
+    display: inline-block
+    margin-right: 25px
+    margin-bottom: 10px
+.estimate-title
+  font-size: 14px
+  font-family: $RobotoRegular
+  color: $dark-title
+  display: inline-block
+
+.estimate-hours
+  font-size: 14px
+  font-family: $OpenSansLight
+  color: $dark-title
+  font-weight: 300
+  display: inline-block
+
+.btn
+  width: 130px
+  height: 31px
+  border: 1px solid #E8E8E8
+  border-radius: 6px
+  font-family: $RobotoLight
+  font-size: 16px
+  font-weight: 300
+  text-align: center
+  line-height: 30px
+  background-color: $white
+  color: #818181
+
+.float-left
+  float: left
+
+.float-right
+  float: right
+
+.task
+  padding: 24px 27px 28px 33px
+  background-color: $white
+  border-radius: 6px
+  box-shadow: 0 0 12px 0 #f3f3f3
+  position: relative
+  margin-bottom: 27px
+  &-name
+    font-family: $RobotoRegular
+    font-size: 18px
+    color: $dark-title
+    display: inline-block
+    margin: 0 25px 0 20px
+  &-main-wrapper
+    padding-bottom: 15px
+    border-bottom: 1px solid #dfdfdf
+    padding-top: 21px
+  .btn
+    margin-top: 21px
+
+  .participants
+    img
+      margin-right: 15px
+
+.status
+  display: inline-block
+  width: 200px
+  margin-right: -4px
+  &-line
+    display: inline-block
+    width: 200px
+    height: 7px
+    background-color: #F3F3F3
+    margin-bottom: 10px
+
+    &-dev
+      &:after
+        width: 178px
+        height: 7px
+        content: ""
+        background-color: $status-green
+        border-radius: 5px
+        display: block
+
+    &-live
+      border-top-right-radius: 5px
+      border-bottom-right-radius: 5px
+      &:after
+        content: ""
+        width: 178px
+        height: 7px
+        background-color: $status-blue
+        border-top-right-radius: 5px
+        border-bottom-right-radius: 5px
+        display: block
+
+    &-qa
+      &:after
+        content: ""
+        width: 113px
+        height: 7px
+        background-color: $status-red
+        border-top-right-radius: 5px
+        border-bottom-right-radius: 5px
+        display: block
+
+    &-review
+      &:after
+        content: ""
+        width: 178px
+        height: 7px
+        display: block
+        background-color: $status-yellow
+        border-top-right-radius: 5px
+        border-bottom-right-radius: 5px
+
+  &-title
+    color: $status-text
+    font-family: $RobotoRegular
+    text-align: center
+    font-size: 14px
+
+
+
+

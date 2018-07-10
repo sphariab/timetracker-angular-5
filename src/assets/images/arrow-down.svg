@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="11px" viewBox="0 0 18 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-968.000000, -188.000000)" fill-rule="nonzero" fill="#648FC0">
+            <g id="Task-1" transform="translate(129.000000, 163.000000)">
+                <path d="M852.640214,31.7079242 L845.097123,39.3040744 C844.617292,39.7875308 843.839327,39.7875308 843.359728,39.3040744 C842.880091,38.821048 842.880091,38.0376258 843.359728,37.5546385 L850.034199,30.8332063 L843.359922,24.1120086 C842.880285,23.6287868 842.880285,22.8454427 843.359922,22.3624164 C843.83956,21.8791945 844.617486,21.8791945 845.097317,22.3624164 L852.640408,29.9586838 C852.880227,30.2003143 853,30.5166625 853,30.8331672 C853,31.1498282 852.879994,31.466411 852.640214,31.7079242 Z" id="Shape" transform="translate(848.000000, 30.833333) rotate(90.000000) translate(-848.000000, -30.833333) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
